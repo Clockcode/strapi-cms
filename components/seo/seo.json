@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "name": "Seo",
+    "icon": "search-plus"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    },
+    "Canonical": {
+      "type": "string",
+      "required": false
+    },
+    "Metakeywords": {
+      "type": "string"
+    }
+  }
+}

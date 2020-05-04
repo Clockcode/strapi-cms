@@ -1,0 +1,14 @@
+{
+	"defaultConnection": "default",
+	"connections": {
+		"default": {
+			"connector": "mongoose",
+			"settings": {
+				"uri": "mongodb+srv://teamr:Cagdasozan1912!@cluster0-k18u3.mongodb.net/test?retryWrites=true&w=majority"
+			},
+			"options": {
+				"ssl": true
+			}
+		}
+	}
+}

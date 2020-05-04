@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "SiteTitle": {
+      "type": "string",
+      "required": true
+    },
+    "MainPage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.seo",
+      "required": true
+    }
+  }
+}
