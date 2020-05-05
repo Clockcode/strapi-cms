@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_variations_product_variations",
+  "info": {
+    "name": "ProductVariation",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "Size": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "DiscountedPrice": {
+      "type": "decimal"
+    },
+    "Quantity": {
+      "type": "integer"
+    },
+    "Color": {
+      "type": "string"
+    },
+    "ProductVariationName": {
+      "type": "string"
+    },
+    "SKU": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

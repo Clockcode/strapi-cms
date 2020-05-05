@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_product_products",
+  "info": {
+    "name": "Product",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "ProductName": {
+      "type": "string",
+      "required": true
+    },
+    "SKU": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ProductVariation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "variations.product-variation"
+    },
+    "Color": {
+      "type": "string"
+    },
+    "Size": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Quantity": {
+      "type": "integer"
+    },
+    "DiscountedPrice": {
+      "type": "decimal"
+    },
+    "ProductImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

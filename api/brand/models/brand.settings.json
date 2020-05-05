@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "brands",
+  "info": {
+    "name": "Brand"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "CompanyName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Logo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Wesbite": {
+      "type": "string",
+      "unique": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "PhoneNumber": {
+      "type": "string",
+      "unique": true
+    },
+    "Product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.product"
+    }
+  }
+}
