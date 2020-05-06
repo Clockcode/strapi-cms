@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_config_navigation_menus",
+  "info": {
+    "name": "NavigationMenu",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "collection": "category"
+    },
+    "menu_other_pages": {
+      "collection": "menu-other-pages"
+    }
+  }
+}

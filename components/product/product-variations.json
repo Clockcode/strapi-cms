@@ -1,27 +1,19 @@
 {
-  "collectionName": "components_product_products",
+  "collectionName": "components_product_product_variations",
   "info": {
-    "name": "Product",
-    "icon": "address-card"
+    "name": "ProductVariations",
+    "icon": "chess-board"
   },
   "options": {},
   "attributes": {
-    "ProductName": {
-      "type": "string",
-      "required": true
-    },
     "SKU": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "ProductVariation": {
-      "type": "component",
-      "repeatable": true,
-      "component": "variations.product-variation"
-    },
     "Color": {
-      "type": "string"
+      "type": "string",
+      "required": false
     },
     "Size": {
       "type": "string"
@@ -29,13 +21,13 @@
     "Price": {
       "type": "decimal"
     },
-    "Quantity": {
-      "type": "integer"
-    },
     "DiscountedPrice": {
       "type": "decimal"
     },
-    "ProductImage": {
+    "Quantity": {
+      "type": "integer"
+    },
+    "ProductImages": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_company_pages",
+  "info": {
+    "name": "FooterCompanyPages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "PageTitle": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "PageContent": {
+      "type": "richtext"
+    }
+  }
+}

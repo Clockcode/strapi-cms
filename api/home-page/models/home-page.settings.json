@@ -9,15 +9,29 @@
     "timestamps": true
   },
   "attributes": {
-    "SiteTitle": {
-      "type": "string",
-      "required": true
-    },
-    "MainPage": {
+    "Seo": {
       "type": "component",
       "repeatable": false,
-      "component": "seo.seo",
-      "required": true
+      "component": "config.seo"
+    },
+    "HomePageTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "product": {
+      "collection": "product"
+    },
+    "Footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.footer"
+    },
+    "NavigationMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.navigation-menu"
     }
   }
 }

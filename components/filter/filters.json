@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_filter_filters",
+  "info": {
+    "name": "Filters",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "Style": {
+      "type": "enumeration",
+      "enum": [
+        "Jacket",
+        "Biker",
+        "Blazer",
+        "Coat",
+        "Mac"
+      ]
+    },
+    "Fit": {
+      "type": "enumeration",
+      "enum": [
+        "Slim",
+        "Oversized",
+        "Cropped",
+        "Regular"
+      ]
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Men",
+        "Women",
+        "Unisex"
+      ]
+    },
+    "SeasonType": {
+      "type": "enumeration",
+      "enum": [
+        "New",
+        "Regular",
+        "BestSeller",
+        "Discounted"
+      ]
+    }
+  }
+}

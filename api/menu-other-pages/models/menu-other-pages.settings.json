@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_other_pages",
+  "info": {
+    "name": "MenuOtherPages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "PageTitle": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "PageContent": {
+      "type": "richtext"
+    }
+  }
+}

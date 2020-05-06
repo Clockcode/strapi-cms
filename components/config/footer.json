@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_config_footers",
+  "info": {
+    "name": "Footer",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "footer_company_pages": {
+      "collection": "footer-company-pages"
+    },
+    "footer_help_pages": {
+      "collection": "footer-help-pages"
+    },
+    "FoooterText": {
+      "type": "string"
+    }
+  }
+}

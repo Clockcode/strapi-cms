@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/brands",
-      "handler": "brand.find",
+      "path": "/footer-help-pages",
+      "handler": "footer-help-pages.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/brands/count",
-      "handler": "brand.count",
+      "path": "/footer-help-pages/count",
+      "handler": "footer-help-pages.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/brands/:id",
-      "handler": "brand.findOne",
+      "path": "/footer-help-pages/:id",
+      "handler": "footer-help-pages.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/brands",
-      "handler": "brand.create",
+      "path": "/footer-help-pages",
+      "handler": "footer-help-pages.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/brands/:id",
-      "handler": "brand.update",
+      "path": "/footer-help-pages/:id",
+      "handler": "footer-help-pages.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/brands/:id",
-      "handler": "brand.delete",
+      "path": "/footer-help-pages/:id",
+      "handler": "footer-help-pages.delete",
       "config": {
         "policies": []
       }

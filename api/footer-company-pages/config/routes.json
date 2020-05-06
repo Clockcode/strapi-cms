@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/footer-company-pages",
+      "handler": "footer-company-pages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/footer-company-pages/count",
+      "handler": "footer-company-pages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/footer-company-pages/:id",
+      "handler": "footer-company-pages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/footer-company-pages",
+      "handler": "footer-company-pages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/footer-company-pages/:id",
+      "handler": "footer-company-pages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/footer-company-pages/:id",
+      "handler": "footer-company-pages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

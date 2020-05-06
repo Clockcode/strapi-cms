@@ -1,5 +1,5 @@
 {
-  "kind": "singleType",
+  "kind": "collectionType",
   "collectionName": "brands",
   "info": {
     "name": "Brand"
@@ -9,40 +9,46 @@
     "timestamps": true
   },
   "attributes": {
-    "CompanyName": {
+    "BrandName": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "Logo": {
-      "collection": "file",
+    "BrandLogo": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
-    "Description": {
-      "type": "text"
+    "slug": {
+      "type": "uid"
     },
-    "Wesbite": {
-      "type": "string",
-      "unique": true
+    "Website": {
+      "type": "string"
     },
     "Email": {
-      "type": "email",
-      "required": true,
-      "unique": true
+      "type": "string"
     },
-    "PhoneNumber": {
-      "type": "string",
-      "unique": true
+    "Phone": {
+      "type": "string"
     },
-    "Product": {
-      "type": "component",
-      "repeatable": true,
-      "component": "product.product"
+    "Twitter": {
+      "type": "string"
+    },
+    "Instagram": {
+      "type": "string"
+    },
+    "Facebook": {
+      "type": "string"
+    },
+    "Products": {
+      "via": "Brand",
+      "collection": "product"
     }
   }
 }

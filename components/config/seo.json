@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_config_seos",
+  "info": {
+    "name": "Seo",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "SiteTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Canonical": {
+      "type": "string"
+    },
+    "Keywords": {
+      "type": "string"
+    }
+  }
+}

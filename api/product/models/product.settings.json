@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ProductName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Category": {
+      "model": "category",
+      "via": "Products"
+    },
+    "Brand": {
+      "model": "brand",
+      "via": "Products"
+    },
+    "Variations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.product-variations"
+    },
+    "ProductFilterSettings": {
+      "type": "component",
+      "repeatable": false,
+      "component": "filter.filters"
+    }
+  }
+}
