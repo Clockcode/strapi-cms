@@ -1,0 +1,11 @@
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+        "accessKeyId": "AKIAJRDHZW5FLWHE75MQ",
+        "secretAccessKey": "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",
+        "region": "us-east-2",
+        "params": {
+            "Bucket": "e-shop-bucket"
+        }
+    }
+}

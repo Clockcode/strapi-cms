@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_config_banner_images",
+  "info": {
+    "name": "BannerImage",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Caption": {
+      "type": "string"
+    }
+  }
+}

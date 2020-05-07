@@ -32,6 +32,11 @@
       "type": "component",
       "repeatable": false,
       "component": "config.navigation-menu"
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.banner"
     }
   }
 }

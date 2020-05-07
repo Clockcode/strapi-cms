@@ -14,17 +14,6 @@
       "required": true,
       "unique": true
     },
-    "BrandLogo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "slug": {
       "type": "uid"
     },
@@ -47,8 +36,17 @@
       "type": "string"
     },
     "Products": {
-      "via": "Brand",
-      "collection": "product"
+      "collection": "product",
+      "via": "Brand"
+    },
+    "BrandLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }

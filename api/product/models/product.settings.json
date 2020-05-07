@@ -22,13 +22,14 @@
       "required": true
     },
     "Brand": {
-      "model": "brand",
-      "via": "Products"
+      "via": "Products",
+      "model": "brand"
     },
     "Variations": {
       "type": "component",
       "repeatable": true,
-      "component": "product.product-variations"
+      "component": "product.product-variations",
+      "required": true
     },
     "ProductFilterSettings": {
       "type": "component",
