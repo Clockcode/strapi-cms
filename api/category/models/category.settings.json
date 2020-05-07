@@ -29,9 +29,10 @@
     "Description": {
       "type": "richtext"
     },
-    "Products": {
-      "via": "Category",
-      "collection": "product"
+    "products": {
+      "collection": "product",
+      "via": "Categories",
+      "dominant": true
     }
   }
 }

@@ -21,10 +21,6 @@
       "type": "richtext",
       "required": true
     },
-    "Category": {
-      "model": "category",
-      "via": "Products"
-    },
     "Brand": {
       "model": "brand",
       "via": "Products"
@@ -38,6 +34,10 @@
       "type": "component",
       "repeatable": false,
       "component": "filter.filters"
+    },
+    "Categories": {
+      "via": "products",
+      "collection": "category"
     }
   }
 }
