@@ -4,7 +4,7 @@
 		"default": {
 			"connector": "mongoose",
 			"settings": {
-				"uri": "${ATLAS_URI}"
+				"uri": "${process.env.ATLAS_URI}"
 			},
 			"options": {
 				"ssl": true
