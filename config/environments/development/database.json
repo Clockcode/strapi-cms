@@ -4,7 +4,7 @@
 		"default": {
 			"connector": "mongoose",
 			"settings": {
-				"uri": "mongodb+srv://teamr:Cagdasozan1912!@cluster0-k18u3.mongodb.net/test?retryWrites=true&w=majority"
+				"uri": "${ATLAS_URI}"
 			},
 			"options": {
 				"ssl": true
