@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "PageTitle": {
+    "Title": {
       "type": "string",
       "required": true
     },
