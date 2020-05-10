@@ -36,8 +36,8 @@
       "type": "string"
     },
     "Products": {
-      "collection": "product",
-      "via": "Brand"
+      "via": "Brand",
+      "collection": "product"
     },
     "BrandLogo": {
       "model": "file",

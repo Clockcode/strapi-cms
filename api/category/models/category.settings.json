@@ -30,8 +30,8 @@
       "type": "richtext"
     },
     "products": {
-      "collection": "product",
       "via": "Categories",
+      "collection": "product",
       "dominant": true
     }
   }

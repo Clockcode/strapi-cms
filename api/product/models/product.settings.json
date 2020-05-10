@@ -22,8 +22,8 @@
       "required": true
     },
     "Brand": {
-      "via": "Products",
-      "model": "brand"
+      "model": "brand",
+      "via": "Products"
     },
     "Variations": {
       "type": "component",
@@ -37,8 +37,14 @@
       "component": "filter.filters"
     },
     "Categories": {
-      "via": "products",
-      "collection": "category"
+      "collection": "category",
+      "via": "products"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "DiscountedPrice": {
+      "type": "decimal"
     }
   }
 }

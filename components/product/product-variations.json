@@ -18,12 +18,6 @@
     "Size": {
       "type": "string"
     },
-    "Price": {
-      "type": "decimal"
-    },
-    "DiscountedPrice": {
-      "type": "decimal"
-    },
     "Quantity": {
       "type": "integer"
     },
