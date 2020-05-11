@@ -1,12 +1,12 @@
 {
   "collectionName": "components_config_banner_images",
   "info": {
-    "name": "BannerImage",
+    "name": "Banner",
     "icon": "image"
   },
   "options": {},
   "attributes": {
-    "Image": {
+    "Picture": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
