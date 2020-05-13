@@ -21,14 +21,11 @@
     "Quantity": {
       "type": "integer"
     },
-    "ProductImages": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
+    "ProductVariationsPics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.product-variatons-pictures",
+      "max": 4
     }
   }
 }

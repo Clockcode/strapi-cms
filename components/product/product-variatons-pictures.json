@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_product_product_variatons_pictures",
+  "info": {
+    "name": "ProductVariatonsPictures",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "ProductPicture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "PictureCaption": {
+      "type": "string"
+    }
+  }
+}

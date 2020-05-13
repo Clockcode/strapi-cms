@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_config_section_belows",
+  "info": {
+    "name": "SectionBelow",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "SectionImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "SectionCaption": {
+      "type": "string"
+    }
+  }
+}

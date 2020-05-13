@@ -33,20 +33,16 @@
       "repeatable": false,
       "component": "config.navigation-menu"
     },
-    "BelowImages": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "Banner": {
       "type": "component",
       "repeatable": true,
       "component": "config.banner-image"
+    },
+    "SectionBelow": {
+      "type": "component",
+      "repeatable": true,
+      "component": "config.section-below",
+      "max": 2
     }
   }
 }
