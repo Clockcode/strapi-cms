@@ -31,11 +31,6 @@
       "component": "product.product-variations",
       "required": true
     },
-    "ProductFilterSettings": {
-      "type": "component",
-      "repeatable": false,
-      "component": "filter.filters"
-    },
     "Categories": {
       "collection": "category",
       "via": "products"
@@ -45,6 +40,43 @@
     },
     "DiscountedPrice": {
       "type": "decimal"
+    },
+    "Fit": {
+      "type": "enumeration",
+      "enum": [
+        "Slim",
+        "Oversized",
+        "Cropped",
+        "Regular"
+      ],
+      "default": "Regular"
+    },
+    "Style": {
+      "type": "enumeration",
+      "enum": [
+        "Jacket",
+        "Biker",
+        "Blazer",
+        "Coat",
+        "Mac"
+      ]
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Men",
+        "Women",
+        "Unisex"
+      ]
+    },
+    "SeasonType": {
+      "type": "enumeration",
+      "enum": [
+        "New",
+        "Regular",
+        "BestSeller",
+        "Discounted"
+      ]
     }
   }
 }
